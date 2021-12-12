@@ -17,12 +17,12 @@ Service layer Unit testing implemented.
 
 # TO:DO
 
-Repository Layer unit testing
-Controller Layer unit testing
-Add Config in properties file
-Add application.yml file
-Addi Springboot Profiles
-Running Springboot with multiple profiles
-Add Springboot Actuator
-Add Custom Actuator Endpoints
-Exclude Actuator Endpoints
+Repository Layer unit testing, 
+Controller Layer unit testing, 
+Add Config in properties file, 
+Add application.yml file, 
+Addi Springboot Profiles, 
+Running Springboot with multiple profiles, 
+Add Springboot Actuator, 
+Add Custom Actuator Endpoints, 
+Exclude Actuator Endpoints, 
