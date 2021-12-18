@@ -12,7 +12,7 @@ import javax.validation.constraints.NotBlank;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@Builder // Lombok builder for auto constructor
 public class Department {
 
     @Id

@@ -1,4 +1,4 @@
-# InDepth-SpringBoot-RESTAPI
+# In Depth-SpringBoot-RESTAPI
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 
@@ -38,21 +38,24 @@ H2 db upgraded to MySQL db
 
 Service layer Unit testing implemented
 
+Repository Layer unit testing implemented
+
+Controller Layer unit testing implemented
+
+Added Config in properties file
+
+Added SpringBoot Profiles
+
+Added application.yml file
+
+Created multiple runnable SpringBoot profiles
+
+    In the target folder run  "java -jar Spring-boot-tutorial-1.0.0.jar --spring.profiles.active={profile_name}"
+
+
 # TO:DO
 
-Repository Layer unit testing
-
-Controller Layer unit testing
-
-Add Config in properties file
-
-Add application.yml file
-
-Add Springboot Profiles
-
-Running Springboot with multiple profiles
-
-Add Springboot Actuator
+Add SpringBoot Actuator
 
 Add Custom Actuator Endpoints
 

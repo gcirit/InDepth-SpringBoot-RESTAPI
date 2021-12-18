@@ -2,7 +2,6 @@ package com.gcirit.Springboot.tutorial.service;
 
 import com.gcirit.Springboot.tutorial.entity.Department;
 import com.gcirit.Springboot.tutorial.repository.DepartmentRepository;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -22,9 +21,10 @@ class DepartmentServiceTest {
     @MockBean
     private DepartmentRepository departmentRepository;
 
+    // @BeforeAll executes before every test case
     @BeforeEach
     void setUp() {
-        Department department = Department.builder()
+        Department department = Department.builder() //Lombok builder constructs the object without getter setters
                 .departmentName("IT")
                 .departmentAddress("Ankara")
                 .departmentCode("IT-06")
