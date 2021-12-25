@@ -18,7 +18,7 @@ Absolutely no code generation and no requirement for XML configuration
 
 # Project Progression So Far:
 
-Spring Initializer used
+Spring Initializer configurated
 
 SpringBoot DevTools dependencies added
 
@@ -52,11 +52,8 @@ Created multiple runnable SpringBoot profiles
 
     In the target folder run  "java -jar Spring-boot-tutorial-1.0.0.jar --spring.profiles.active={profile_name}"
 
+Spring Actuator added
 
-# TO:DO
+Custom Actuator Endpoints implemented
 
-Add SpringBoot Actuator
-
-Add Custom Actuator Endpoints
-
-Exclude Actuator Endpoints
+Excluded Actuator Endpoints
